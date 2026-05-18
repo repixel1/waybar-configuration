@@ -1,3 +1,4 @@
 @define-color background transparent;
 @define-color container #000000; 
-/* 242424 */
+@define-color border #242424;
+@define-color text #ffffff; 

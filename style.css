@@ -27,7 +27,7 @@ window#waybar {
   margin: 0 2px;
   background: @background;
   border-radius: 16px;
-  color: white;
+  color: @text;
 }
 
 #workspaces button:hover {
@@ -39,6 +39,7 @@ window#waybar {
 #mpris,
 #tray,
 #pulseaudio,
+#bluetooth,
 #network,
 #battery,
 #temperature,
@@ -48,7 +49,7 @@ window#waybar {
   padding: 6px 20px 6px;
   background-color: @container;
   border-radius: 20px;
-  color: white;
+  color: @text;
 }
 
 #tray.empty {
@@ -58,3 +59,17 @@ window#waybar {
     border: none;
     min-width: 0;
 }
+
+tooltip {
+  box-shadow: none;
+  border: none;
+  border-radius: 20px;
+}
+
+tooltip label {
+  background-color: @background;
+  color: @text;
+  padding: 6px 20px 6px;
+}
+
+

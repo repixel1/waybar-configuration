@@ -12,6 +12,7 @@
     "./modules/mpris.jsonc",
     "./modules/tray.jsonc",
     "./modules/audio.jsonc",
+    "./modules/bluetooth.jsonc",
     "./modules/network.jsonc",
     "./modules/battery.jsonc",
     "./modules/temperature.jsonc",
@@ -19,5 +20,5 @@
 
   "modules-left": ["custom/distro", "niri/workspaces"],
   "modules-center": ["clock"],
-  "modules-right": ["mpris", "tray", "pulseaudio", "network", "battery", "temperature"],
+  "modules-right": ["mpris", "tray", "pulseaudio", "bluetooth", "network", "battery", "temperature"],
 }

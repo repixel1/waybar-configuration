@@ -1,6 +1,6 @@
 {
   "pulseaudio": {
-    "format": "{icon}  {volume}%",
+    "format": "{icon} {volume}%",
     "scroll-step": 5,
     "format-muted": "",
     "format-icons": {
