@@ -21,4 +21,16 @@
       "bluetooth"
     ]
   },
+
+  "group/system": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-duration": 500,
+      "transition-right-to-left": false
+    },
+    "modules": [
+      "temperature",
+      "memory"
+    ]
+  },
 }

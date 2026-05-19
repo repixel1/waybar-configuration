@@ -1,7 +1,7 @@
 {
   "mpris": {
     "player": "spotify",
-    "format": "{artist} - {title} [{position}/{length}]",
+    "format": "{player_icon} {artist} - {title} [{position}/{length}]",
     "max-length": 40,
     "format-paused": "{status_icon} {artist} - {title} [{position}/{length}]",
     "interval": 1,

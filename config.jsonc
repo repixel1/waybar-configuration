@@ -16,9 +16,10 @@
     "./modules/connections.jsonc",
     "./modules/battery.jsonc",
     "./modules/temperature.jsonc",
+    "./modules/system.jsonc"
   ],
 
   "modules-left": ["custom/distro", "niri/workspaces"],
   "modules-center": ["clock"],
-  "modules-right": ["mpris", "tray", "group/audio", "group/connections", "battery", "temperature"],
+  "modules-right": ["mpris", "tray", "group/audio", "group/connections", "battery", "group/system", ],
 }

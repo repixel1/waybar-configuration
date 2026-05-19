@@ -1,0 +1,18 @@
+@import "colors.css";
+
+#connections {
+  margin: 4px 5px;
+  padding: 6px 20px;
+  background-color: @container;
+  border-radius: 20px;
+  color: @text;
+}
+
+#bluetooth {
+  margin: 4px 4px;
+  padding: 0 12px 0 6px;
+}
+
+#network {
+  padding: 0px 4px;
+}

@@ -11,5 +11,15 @@
       "",
       ""
     ]
+  },
+  "memory": {
+    "tooltip": false,
+    "interval": 15,
+    "format": "󰍛 {used} GiB",
+    "states": {
+      "warning": 75,
+      "critical": 85
+    }
   }
 }
+
