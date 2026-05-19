@@ -38,18 +38,39 @@ window#waybar {
 #clock,
 #mpris,
 #tray,
-#pulseaudio,
-#bluetooth,
-#network,
+#audio,
 #battery,
 #temperature,
 #cpu,
 #memory {
   margin: 4px 5px;
-  padding: 6px 20px 6px;
+  padding: 6px 20px;
   background-color: @container;
   border-radius: 20px;
   color: @text;
+}
+
+#connections {
+  margin: 4px 5px;
+  padding: 6px 20px;
+  background-color: @container;
+  border-radius: 20px;
+  color: @text;
+}
+
+
+#bluetooth {
+  margin: 0px 2px 0px 2px;
+  padding: 0 8px 0 8px;
+}
+
+#network {
+  padding: 0px 4px 0px 4px;
+}
+/* // top right botom lsef */
+#pulseaudio {
+  margin-right: 8px;
+  margin-left: 8px;
 }
 
 #tray.empty {
@@ -69,7 +90,33 @@ tooltip {
 tooltip label {
   background-color: @background;
   color: @text;
-  padding: 6px 20px 6px;
+  padding: 6px 20px;
 }
 
+#pulseaudio-slider {
+  margin: 4px 5px;
+  padding: 0 2px;
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+#pulseaudio-slider trough {
+  min-height: 10px;
+  min-width: 80px;
+  border-radius: 10px;
+  background-color: @text;
+}
+
+#pulseaudio-slider highlight {
+  min-height: 10px;
+  border-radius: 10px;
+  background-color: yellow;
+}
+
+#pulseaudio-slider slider {
+  min-height: 12px;
+  min-width: 12px;
+  margin: -2px 0;
+  border-radius: 100%;
+}
 

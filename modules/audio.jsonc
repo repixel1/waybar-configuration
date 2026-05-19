@@ -8,5 +8,8 @@
       "headset": "",
       "default": ["", "", " "]
     }
+  },
+  "pulseaudio/slider": {
+    "orientation": "horizontal"
   }
 }
