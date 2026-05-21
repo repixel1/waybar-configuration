@@ -9,6 +9,7 @@
     "./modules/distro.jsonc",
     "./modules/workspaces.jsonc",
     "./modules/clock.jsonc",
+    "./modules/power-profiles-daemon.jsonc",
     "./modules/mpris.jsonc",
     "./modules/tray.jsonc",
     "./modules/groups.jsonc",
@@ -20,6 +21,6 @@
   ],
 
   "modules-left": ["custom/distro", "niri/workspaces"],
-  "modules-center": ["clock"],
+  "modules-center": ["clock", "power-profiles-daemon"],
   "modules-right": ["mpris", "tray", "group/audio", "group/connections", "battery", "group/system", ],
 }

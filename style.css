@@ -3,6 +3,7 @@
 @import "style/audio.css";
 @import "style/connections.css";
 @import "style/system.css";
+@import "style/tooltip.css";
 
 * {
   margin: 0;
@@ -20,6 +21,7 @@ window#waybar {
 
 #custom-distro,
 #clock,
+#power-profiles-daemon,
 #mpris,
 #tray,
 #battery {
@@ -41,17 +43,5 @@ window#waybar {
     padding: 0;
     border: none;
     min-width: 0;
-}
-
-tooltip {
-  box-shadow: none;
-  border: none;
-  border-radius: 20px;
-}
-
-tooltip label {
-  background-color: @background;
-  color: @text;
-  padding: 6px 20px;
 }
 
