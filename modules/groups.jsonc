@@ -29,6 +29,7 @@
     },
     "modules": [
       "battery",
+      "backlight/slider",
       "backlight"
     ]
   },

@@ -5,7 +5,10 @@
     "on-scroll-up": "brightnessctl set +5%",
     "on-scroll-down": "brightnessctl set 5%-",
   },
-
+  "backlight/slider": {
+    "orientation": "horizontal",
+    "device": "intel_backlight"
+  },
   "battery": {
     "format": "{icon} {capacity}%",
     "format-discharging": "{icon} {capacity}%",

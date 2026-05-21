@@ -32,11 +32,6 @@ window#waybar {
   color: @text;
 }
 
-#pulseaudio {
-  margin-right: 8px;
-  margin-left: 8px;
-}
-
 #tray.empty {
     opacity: 0;
     margin: 0;
