@@ -20,7 +20,7 @@
     "./modules/system.jsonc"
   ],
 
-  "modules-left": ["custom/distro", "niri/workspaces"],
+  "modules-left": ["custom/distro", "niri/workspaces", "tray", "mpris"],
   "modules-center": ["clock", "power-profiles-daemon"],
-  "modules-right": ["mpris", "tray", "custom/clipboard", "group/audio", "group/connections", "group/power", "group/system"],
+  "modules-right": ["custom/clipboard", "group/audio", "group/connections", "group/power", "group/system", ],
 }
