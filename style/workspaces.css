@@ -1,22 +1,9 @@
 @import "colors.css";
 
-/* #workspaces { */
-/*   margin: 4px 5px; */
-/*   padding: 6px 6px; */
-/*   background-color: @container; */
-/*   border-radius: 20px; */
-/* } */
-/**/
-/* #workspaces button { */
-/*   min-width: 32px; */
-/*   padding: 0 4px; */
-/*   margin: 0 2px; */
-/*   border-radius: 16px; */
-/*   color: @text; */
-/* } */
-
 #workspaces button:hover {
     box-shadow: none;
+    color: transparent;
+    text-shadow: none;
 }
 
 #workspaces {
