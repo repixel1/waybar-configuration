@@ -4,5 +4,6 @@
 
 /* alternative color set */
 /* @define-color background #000000; */
-@define-color container #242424; 
+@define-color container rgba(36, 36, 36, 0.5);
+/* @define-color container #242424;  */
 @define-color text #ffffff; 

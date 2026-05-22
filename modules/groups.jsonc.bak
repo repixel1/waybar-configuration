@@ -6,43 +6,29 @@
       "transition-left-to-right": false
     },
     "modules": [
-      "pulseaudio",
-      "pulseaudio/slider"
+      "pulseaudio"
     ]
   },
   "group/connections": {
     "orientation": "horizontal",
-    "drawer": {
-      "transition-duration": 500,
-      "transition-left-to-right": false
-    },
     "modules": [
-      "network",
-      "bluetooth"
+      "bluetooth",
+      "network"
     ]
   },
   "group/power": {
     "orientation": "horizontal",
-    "drawer": {
-      "transition-duration": 500,
-      "transition-left-to-right": false
-    },
     "modules": [
-      "battery",
-      "backlight/slider",
-      "backlight"
+      "backlight",
+      "battery"
     ]
   },
   "group/system": {
     "orientation": "horizontal",
-    "drawer": {
-      "transition-duration": 500,
-      "transition-right-to-left": false
-    },
     "modules": [
       "temperature",
       "memory",
       "cpu"
     ]
-  },
+  }
 }
