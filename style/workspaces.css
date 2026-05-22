@@ -1,21 +1,44 @@
 @import "colors.css";
 
-#workspaces {
-  margin: 4px 5px;
-  padding: 6px 6px;
-  background-color: @container;
-  border-radius: 20px;
-}
-
-#workspaces button {
-  min-width: 32px;
-  padding: 0 4px;
-  margin: 0 2px;
-  border-radius: 16px;
-  color: @text;
-}
+/* #workspaces { */
+/*   margin: 4px 5px; */
+/*   padding: 6px 6px; */
+/*   background-color: @container; */
+/*   border-radius: 20px; */
+/* } */
+/**/
+/* #workspaces button { */
+/*   min-width: 32px; */
+/*   padding: 0 4px; */
+/*   margin: 0 2px; */
+/*   border-radius: 16px; */
+/*   color: @text; */
+/* } */
 
 #workspaces button:hover {
     box-shadow: none;
+}
+
+#workspaces {
+    padding: 10px 10px;
+    background-color: @container;
+    margin: 5 0;
+    border-radius: 25px
+}
+
+#workspaces button {
+    transition: all 0.2s ease-in-out;
+    padding: 0 0px;
+    background-color: @workspace-inactive;
+    border-radius: 20px;
+    min-width: 30px;
+    margin: 0 3px;
+    color: transparent;
+}
+
+#workspaces button.active {
+    transition: all 0.3s ease-in-out;
+    min-width: 50px;
+    background-color: @workspace-active;
 }
 
